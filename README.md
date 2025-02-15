@@ -38,7 +38,7 @@ If you go into the single cell monitoring menu only one BMS is getting polled wi
 
 We also managed to locate the temp sensor's response:
 
-![temp sensor](temp sensor.png)
+![tempsensor](tempsensor.png)
 
 By peeking at the protocol the following can be known:
 
