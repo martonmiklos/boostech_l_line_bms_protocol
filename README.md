@@ -14,9 +14,11 @@ A simple comparator circuit built to interface a Saleae Logic with the bus:
 
 ![LLine](l_line_interface.png)
 
+[Kicad schemati available here along with a partially reverse engineered BMS board.](lline_interface)
+
 ### Protocol ###
 
-The protocol is mastered likely by the bus relay, at least the communication is taken place in the case if the display unit is disconnected.
+The protocol is mastered likely by the bus relay, at least the polls by the master are performed even if the display unit is not disconnected.?
 
 By default it looks to poll all devices with roughly 1 sec intervals:
 
@@ -29,6 +31,10 @@ With BMS disconnections we were able to determine the answers in the responses:
 So the responses are sent after a certain preamble in the order the BMS cells are addressed:
 
 ![Slave responses](slaves.png)
+
+If you go into the single cell monitoring menu only one BMS is getting polled with ~1 sec interval:
+
+![menupoll](menupoll.png)
 
 We also managed to locate the temp sensor's response:
 
