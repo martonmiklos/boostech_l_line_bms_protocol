@@ -1,10 +1,15 @@
 ## Boostech L-Line BMS protocol ##
 
-Our goal is to reverse engineer the protocol used in a Boostech L-Line BMS system.
+One of my friends purchased a Peugeot 106 Electrique with a 42 cell LiFePO4 battery pack, equipped with a Boostech L-Line BMS system.
 
-We would like to log and understand the changes of the individual cell voltages over time/current draw.
+![The target](Matkos106.jpg)
 
-Yes we could go out and just buy a [MasterUnit V3](https://shop4akku.de/bms-masterunit-v3/), but we are poor eastern europeans and where is the fun in that :D
+
+Our goal is to reverse engineer the protocol used in a Boostech L-Line BMS system and extract and log information from it.
+
+We would like to log and understand the changes of the individual cell voltages over time/ higher current draw to get a more accurate overview from the status of the pack..
+
+Yes, we could go out and just buy a [MasterUnit V3](https://shop4akku.de/bms-masterunit-v3/), but we are poor eastern europeans and where is the fun in that :D
 
 ### Physical layer ###
 
