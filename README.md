@@ -15,11 +15,11 @@ Yes, we could go out and just buy a [MasterUnit V3](https://shop4akku.de/bms-mas
 
 Bus idles at 5 Volt, master pulls it to +12V slave (BMS boards, current meter, temperature meter pulls it to GND).
 
-A simple comparator circuit built to interface a Saleae Logic with the bus:
+A simple comparator circuit hda been built to interface a Saleae Logic (and some random microcontroller in the future) with the bus:
 
 ![LLine](l_line_interface.png)
 
-[Kicad schemati available here along with a partially reverse engineered BMS board.](lline_interface)
+[Kicad schematic is available here along with a partially reverse engineered BMS board.](lline_interface)
 
 ### Protocol ###
 
